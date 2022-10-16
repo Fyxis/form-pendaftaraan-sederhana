@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.body {
+  background-color: rgb(108, 150, 103);
+}
+
+.judul {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+.told-to-input {
+  font-size: 18px;
+  font-family: Shadows Into Light;
+  font-weight: 600;
+}
+
+.form {
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  background-color: #1a9b6c;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.submit:hover {
+  background-color: rgb(6, 255, 6);
+  cursor: pointer;
+}
